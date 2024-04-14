@@ -1,0 +1,9 @@
+{
+  "name": "@zmlo/utils",
+  "private": true,
+  "version": "0.0.1",
+  "description": "local utils package",
+  "author": "Zmlo",
+  "license": "MIT",
+  "main": "./src/index.ts"
+}

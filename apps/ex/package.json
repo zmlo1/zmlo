@@ -1,0 +1,14 @@
+{
+  "name": "@zmlo/ex-app",
+  "private": true,
+  "version": "0.0.1",
+  "description": "local exapp package",
+  "author": "Zmlo",
+  "license": "MIT",
+  "scripts": {
+    "debug": "ts-node ./src/main.ts"
+  },
+  "dependencies": {
+    "@zmlo/utils": "workspace:^"
+  }
+}
