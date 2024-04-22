@@ -1,0 +1,9 @@
+{
+  "name": "zmlo-ui",
+  "private": false,
+  "version": "0.0.1",
+  "description": "local ui package",
+  "author": "Zmlo",
+  "license": "MIT",
+  "main": "./src/index.ts"
+}
