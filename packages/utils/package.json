@@ -7,10 +7,12 @@
   "license": "MIT",
   "main": "./src/index.ts",
   "dependencies": {
+    "big.js": "^6.2.1",
     "dayjs": "^1.11.10",
     "lodash-es": "^4.17.21"
   },
   "devDependencies": {
+    "@types/big.js": "^6.2.2",
     "@types/lodash-es": "^4.17.12"
   }
 }

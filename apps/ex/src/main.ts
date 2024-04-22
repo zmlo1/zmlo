@@ -1,12 +1,9 @@
-import { add } from '@zmlo/utils';
+import { getTotal } from '@zmlo/utils';
+
+const array = [{ num: '0.1' }, { num: 0.2 }, { num: 0.1 }];
 
 function bootstrap() {
-  console.log(add(1, 2));
-
-
-
-
-
+  console.log(+getTotal(array, 'num'));
 }
 
 bootstrap();
