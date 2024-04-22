@@ -5,5 +5,12 @@
   "description": "local ui package",
   "author": "Zmlo",
   "license": "MIT",
-  "main": "./src/index.ts"
+  "main": "./src/index.ts",
+  "dependencies": {
+    "element-plus": "^2.7.1"
+  },
+  "devDependencies": {
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0"
+  }
 }
