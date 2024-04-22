@@ -1,14 +1,17 @@
 {
-  "name": "@zmlo/ex-app",
+  "name": "ex-app",
   "private": true,
   "version": "0.0.1",
   "description": "local exapp package",
   "author": "Zmlo",
   "license": "MIT",
+  "type": "module",
   "scripts": {
-    "debug": "ts-node ./src/main.ts"
+    "dev": "vite"
   },
   "dependencies": {
-    "@zmlo/utils": "workspace:^"
+    "@zmlo/utils": "workspace:^",
+    "vue": "^3.4.23",
+    "zmlo-ui": "^0.0.2"
   }
 }

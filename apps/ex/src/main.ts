@@ -1,9 +1,12 @@
-import { getTotal } from '@zmlo/utils';
+import './style.css';
+import { createApp } from 'vue';
 
-const array = [{ num: '0.1' }, { num: 0.2 }, { num: 0.1 }];
+import App from './App.vue';
 
-function bootstrap() {
-  console.log(+getTotal(array, 'num'));
+async function bootstrap() {
+  const app = createApp(App);
+
+  app.mount('#app');
 }
 
 bootstrap();
